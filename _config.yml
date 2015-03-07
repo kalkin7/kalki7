@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Kalkin7's Blog
+email:       kalkin7@gmail.com
+author:      Kalkin7
+description: "Kalkin7's Test Blog"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://kalki7.tk"
 
 # Google analytics
 google_analytics:
@@ -12,7 +12,7 @@ google_analytics:
 # Optional features
 animated:           false
 show_related_posts: false
-show_post_footers:  false
+show_post_footers:  true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
