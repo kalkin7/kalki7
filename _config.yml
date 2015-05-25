@@ -1,39 +1,18 @@
-# Site settings
-title:       Kalkin7's Blog
-email:       kalkin7@gmail.com
-author:      Kalkin7
-description: "Kalkin7's Test Blog"
-baseurl:     ""
-url:         "http://kalki7.tk"
+# site details
+name: Spaceman
+description: Spaceman is the default Jekyll theme
+url: http://lucianmarin.com/spaceman/
 
-# Google analytics
-google_analytics:
+# social profiles. just remove unneeded profiles.
+behance: lucianmarin
+dribbble: lucianmarin
+github: lucianmarin/spaceman
+instagram: lucianmarin
+tumblr: lucianmarin
+twitter: lucianmarin
 
-# Optional features
-animated:           false
-show_related_posts: false
-show_post_footers:  true
+highlighter: pygments
+permalink: /article/:title.html
 
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname:
-
-# Social icons
-show_social_icons: false
-github_username:
-stackoverflow_id:
-twitter_username:
-google_plus_id:
-linkedin_username:
-bitcoin_url:
-paypal_url:
-flattr_button:
-
-# Build settings
-markdown:     redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate:     3
-sass:
-  compressed: true
+exclude: [readme.md]
+include: [.htaccess]
