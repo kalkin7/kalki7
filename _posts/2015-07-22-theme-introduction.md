@@ -40,7 +40,7 @@ Use Markdown's `>` to create a quote.
 
 Large enough images will be wider than the page.
 
-![Forest](http://i.imgur.com/KTfsVZL.jpg) <small>Source: [imgur.com](http://imgur.com/KTfsVZL)</small>
+![Forest](http://i.imgur.com/rER7ah1.jpg) <small>Source: [imgur.com](http://imgur.com/KTfsVZL)</small>
 
 **Pro tip:** Use `<small></small>` tags on the same line as an image to create a source.
 
