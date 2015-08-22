@@ -1,6 +1,6 @@
 ---
 title: Theme introduction
-cover-image: http://ssproxy.ucloudbiz.olleh.com/v1/AUTH_a57f6890-5b20-44ab-9ded-b1760618913a/IMGF01/15/hipster.jpg
+cover-image: hipster.jpg
 ---
 
 This post is a showcase of what Holo Alfa looks like, and a reference guide for how you can use it to make your blog shine.
