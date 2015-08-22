@@ -1,5 +1,6 @@
 ---
 title: Code Snippets
+cover-image: css_code-1280.jpg
 ---
 
 Whenever you need to post a code snippet, use the liquid tags `hilight` and `endhilight`.
