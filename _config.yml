@@ -65,7 +65,7 @@ display-author-post-page: true
 display-author-front-page: true
 
 # http://alanwsmith.com/jekyll-liquid-date-formatting-examples
-date_format: "%Y/%m/%d, "
+date_format: "%Y/%m/%d"
 
 # Minimal screen-width after wich the navigation will change position from
 # vertical to horizontal.
