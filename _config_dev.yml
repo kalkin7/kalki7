@@ -1,30 +1,32 @@
 
 # The name of your website.
-name: Kalki7
+name: Holo Alfa
 
-description: Kalki7's Test Blog
+description:
 
   # Discription of your site, this will show up in google.
-  meta: Kalki7's Test Blog
+  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
 
   # Discription of your site, this will show up on the front page.
-  subtitle: Kalki7's Test Blog
+  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
 
 author:
-  name: Kalki7
+  name: Stijn van Cuijk
 
   # Necessary for contact page
-  email: kalkinblog1@gmail.com
+  email: stijnvcuijk@gmail.com
 
   # Optional text (html) to dislay after author name. Leave empty if you don't
   # want it.
   info:
 
-url: http://kalki7.tk
+# The URL of the homepage of your site (without trailing slash). Leave this
+# empty when you run Jekyll locally.
+url: http://localhost:4000
 baseurl: ""
 
 # language attribute in <html> element.
-lang: ko
+lang: en
 
 # FROM THIS POINT ON EVERYTHING IS OPTIONAL
 
@@ -37,7 +39,7 @@ lang: ko
 show-subtitle: true
 display-social-icons: false
 
-footer-text: This is the footer.<br>Kalki7's Test Blog
+footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
 
 # Preferrably 64px in height. Leave empty = disbale.
 logo-image: # /img/logo.png
@@ -65,14 +67,14 @@ display-author-post-page: true
 display-author-front-page: true
 
 # http://alanwsmith.com/jekyll-liquid-date-formatting-examples
-date_format: "%Y/%m/%d, "
+date_format: "%b %-d, %Y"
 
 # Minimal screen-width after wich the navigation will change position from
 # vertical to horizontal.
 nav-breaking-point: 520px
 
 # Number of posts on each page.
-paginate: 6
+paginate: 3
 
 # Display links for the previous and next post on post pages.
 display-next-prev-post: false
@@ -87,7 +89,7 @@ disqus-shortname:
 
 # Use a complete url here, including http:// and such. Requiring just usernames
 # has been considered, but this is way more customizable.
-twitter: kalkin_7
+twitter:
 youtube:
 instagram:
 tumblr:
