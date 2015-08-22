@@ -96,7 +96,7 @@ img {
   text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 나눔고딕코딩, NanumGothicCoding, "Source Sans Pro", Verdana, sans-serif;
+  font-family: "Open Sans", 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, "맑은 고딕", "Malgun Gothic", "Source Sans Pro", Verdana, sans-serif;
   font-weight: 900;
   background-image: none;
   text-decoration: none !important;
