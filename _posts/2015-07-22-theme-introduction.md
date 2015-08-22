@@ -1,6 +1,6 @@
 ---
 title: Theme introduction
-cover-image: hipster.jpg
+cover-image: http://ssproxy.ucloudbiz.olleh.com/v1/AUTH_a57f6890-5b20-44ab-9ded-b1760618913a/IMGF01/15/hipster.jpg
 ---
 
 This post is a showcase of what Holo Alfa looks like, and a reference guide for how you can use it to make your blog shine.
@@ -29,14 +29,14 @@ Lists work as expected.
 
 1. Blowzy night-frumps vex'd Jack Q. (A perfect [pangram](https://en.wikipedia.org/wiki/Pangram))
 2. Alve bazige froulju wachtsje op dyn komst.
-3. Flygande bäckasiner söka hwila på mjuka tuvor.
+3. Flygande backasiner soka hwila pa mjuka tuvor.
 
 ## Quotes, images and code blocks
 
 Use Markdown's `>` to create a quote.
 
 >It'll be nipper heaps trent from punchy oldies. Trent from punchy no dramas when flat out like a tucker-bag. He hasn't got a piker flamin frog in a sock.
-><small>— [Bogan Ipsum](http://boganipsum.com/)</small>
+><small>? [Bogan Ipsum](http://boganipsum.com/)</small>
 
 Large enough images will be wider than the page.
 
