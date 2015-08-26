@@ -3,6 +3,7 @@
     <p>{{ site.footer-text }}</p>
   </div>
 </footer>
+<!--
 <script>
   var cb = function() {
     var l = document.createElement('link'); l.rel = 'stylesheet';
@@ -14,7 +15,8 @@
   if (raf) raf(cb);
   else window.addEventListener('load', cb);
 </script>
-<!-- <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css"> -->
+-->
+<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 <link rel="stylesheet" href="{{ site.baseurl }}/css/pygments.css">
 {% if page.home != true or site.show-subtitle == false and site.display-social-icons == false %}
 <style>
