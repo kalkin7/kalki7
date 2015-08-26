@@ -47,7 +47,7 @@
 <script async src="{{ site.baseurl }}/js/modernizr.js"></script>
 <script async src="{{ site.baseurl }}/js/fitvids.js"></script>
 <script type="text/javascript">
-function loadCSS(e,n,t){"use strict";var o=window.document.createElement("link"),d=n||window.document.getElementsByTagName("script")[0],i=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",d.parentNode.insertBefore(o,d),o.onloadcssdefined=function(e){for(var n,t=0;t<i.length;t++)i[t].href&&i[t].href===o.href&&(n=!0);n?e():setTimeout(function(){o.onloadcssdefined(e)})},o.onloadcssdefined(function(){o.media=t||"all"}),o}
+function onloadCSS(ss,callback){ss.onload=function(){ss.onload=null,callback&&callback.call(ss)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in ss&&ss.onloadcssdefined(callback)}function loadCSS(href,before,media,callback){"use strict";var ss=window.document.createElement("link"),ref=before||window.document.getElementsByTagName("script")[0],sheets=window.document.styleSheets;return ss.rel="stylesheet",ss.href=href,ss.media="only x",callback&&(ss.onload=callback),ref.parentNode.insertBefore(ss,ref),ss.onloadcssdefined=function(cb){for(var defined,i=0;i<sheets.length;i++)sheets[i].href&&sheets[i].href===ss.href&&(defined=!0);defined?cb():setTimeout(function(){ss.onloadcssdefined(cb)})},ss.onloadcssdefined(function(){ss.media=media||"all"}),ss}
 </script>
 <!-- <link href='//fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro:600,900|Crimson+Text:700italic,600,600italic,400,700,400italic' rel='stylesheet' type='text/css'> -->
 <script type="text/css">
