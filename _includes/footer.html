@@ -3,23 +3,4 @@
     <p>{{ site.footer-text }}</p>
   </div>
 </footer>
-<!--
-<script>
-  var cb = function() {
-    var l = document.createElement('link'); l.rel = 'stylesheet';
-    l.href = '{{ site.baseurl }}/css/style.css';
-    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-  };
-  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-      webkitRequestAnimationFrame || msRequestAnimationFrame;
-  if (raf) raf(cb);
-  else window.addEventListener('load', cb);
-</script>
--->
-<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 <link rel="stylesheet" href="{{ site.baseurl }}/css/pygments.css">
-{% if page.home != true or site.show-subtitle == false and site.display-social-icons == false %}
-<style>
-<style>header{margin-bottom:40px}@media all and (min-width:500px){header{margin-bottom:100px}}header::after{display:none}
-</style>
-{% endif %}
