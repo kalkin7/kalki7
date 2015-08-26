@@ -347,6 +347,14 @@ footer .inner {
   max-width: 740px;
 }
 
+#archive p{
+  margin: 10px 0;
+}
+
+#archive h3{
+  margin: 20px;
+}
+
 
 /* Content overwrites */
 
@@ -435,7 +443,7 @@ nav a.current {
   }
   h2 {
     font-size: 1.8em;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: -10px;
   }
   h3, h4, h5, h6 {
