@@ -649,6 +649,10 @@ nav a.current {
   bottom: -0.65em;
 }
 
+.bigfoot-footnote__content > p {
+    font-size: 0.85em;
+}
+
 
 /* Structure overwrites */
 
