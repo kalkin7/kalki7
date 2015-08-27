@@ -1,9 +1,9 @@
 ---
-title: 전체글목록
+title: Time Machine
 layout: page
 ---
 
-<div id="archive">
+
   {% for post in site.posts %}
 
     {% unless post.next %}
@@ -18,4 +18,3 @@ layout: page
 
     <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small> • {{ post.date | date: site.date_format }}</small></p>
   {% endfor %}
-</div>
