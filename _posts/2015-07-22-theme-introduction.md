@@ -10,6 +10,7 @@ You can write posts using the familiar [Markdown](http://daringfireball.net/proj
 
 The image in the background can be set as `cover-image` in the [Front Matter](http://jekyllrb.com/docs/frontmatter/) of a post or page. The "fade to white" will be created automatically. Cover images are stored in `/img/covers/`.
 
+
 Look, a H2 heading!
 -------------------
 
