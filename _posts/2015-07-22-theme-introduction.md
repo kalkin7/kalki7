@@ -1,5 +1,4 @@
 ---
-
 title: Theme introduction
 
 cover-image: hipster.jpg
