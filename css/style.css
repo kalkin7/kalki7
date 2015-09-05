@@ -176,7 +176,7 @@ code {
   font-family: 나눔고딕코딩, NanumGothicCoding, "Source Code Pro", monospace;
 }
 p code {
-  font-size: .7em;
+  font-size: 0.95em;
   display: inline-block;
   border-radius: 2px;
   background-color: rgba({{ site.text-color }},.05);
