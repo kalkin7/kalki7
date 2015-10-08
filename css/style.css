@@ -30,6 +30,44 @@ src:url(//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#ief
 	url(//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf) format('truetype');
 }
 
+/* Web Fonts 2 */
+
+@font-face {
+   font-family: 'Noto Sans Korean';
+   font-style: normal;
+   font-weight: 200;
+   src: url(http://ts.daumcdn.net/custom/blog/47/473712/skin/images/NotoSansCJKkr-Light-Subset.woff2) format('woff2'),
+        url(http://ts.daumcdn.net/custom/blog/47/473712/skin/images/NotoSansCJKkr-Light-Subset.woff) format('woff'),
+        url(http://ts.daumcdn.net/custom/blog/47/473712/skin/images/NotoSansCJKkr-Light-Subset.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'Noto Sans Korean';
+   font-style: normal;
+   font-weight: 300;
+   src: url(http://ts.daumcdn.net/custom/blog/47/473712/skin/images/NotoSansCJKkr-DemiLight-Subset.woff2) format('woff2'),
+        url(http://ts.daumcdn.net/custom/blog/47/473712/skin/images/NotoSansCJKkr-DemiLight-Subset.woff) format('woff'),
+        url(http://ts.daumcdn.net/custom/blog/47/473712/skin/images/NotoSansCJKkr-DemiLight-Subset.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'Noto Sans Korean';
+   font-style: normal;
+   font-weight: 400;
+   src: url(http://ts.daumcdn.net/custom/blog/47/473712/skin/images/NotoSansCJKkr-Regular-Subset.woff2) format('woff2'),
+        url(http://ts.daumcdn.net/custom/blog/47/473712/skin/images/NotoSansCJKkr-Regular-Subset.woff) format('woff'),
+        url(http://ts.daumcdn.net/custom/blog/47/473712/skin/images/NotoSansCJKkr-Regular-Subset.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'Noto Sans Korean';
+   font-style: normal;
+   font-weight: 700;
+   src: url(http://ts.daumcdn.net/custom/blog/47/473712/skin/images/NotoSansCJKkr-Bold-Subset.woff2) format('woff2'),
+        url(http://ts.daumcdn.net/custom/blog/47/473712/skin/images/NotoSansCJKkr-Bold-Subset.woff) format('woff'),
+        url(http://ts.daumcdn.net/custom/blog/47/473712/skin/images/NotoSansCJKkr-Bold-Subset.otf) format('opentype');
+}
+
 
 ::selection {
   background: rgba({{ site.theme-color }}, .2);
@@ -49,7 +87,7 @@ src:url(//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#ief
 /* Content */
 
 body {
-  font-family: "Open Sans", 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, "맑은 고딕", "Malgun Gothic",  Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: 'Noto Sans Korean', "Open Sans", 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, "맑은 고딕", "Malgun Gothic",  Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
