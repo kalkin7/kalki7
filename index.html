@@ -18,20 +18,20 @@ home: true
     <span class="meta">
       {% if site.display-author-front-page %}
         {% if post.author.name %}
-          {{ post.author.name }} â€¢
+          {{ post.author.name }} &#8226;
         {% else %}
           {% if site.author.name %}
-            {{ site.author.name }} â€¢
+            {{ site.author.name }} &#8226;
           {% endif %}
         {% endif %}
       {% endif %}
-      {{ post.date | date: site.date_format }} â€¢ {{ read-time }}</span>
+      {{ post.date | date: site.date_format }} &#8226; {{ read-time }}</span>
   	<a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
       <p>
       {% if post.summary %}
-        {{ post.summary }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  â†’</a>
+        {{ post.summary }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  ¡æ</a>
       {% else %}
-        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  â†’</a>
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  ¡æ</a>
       {% endif %}
       </p>
 
