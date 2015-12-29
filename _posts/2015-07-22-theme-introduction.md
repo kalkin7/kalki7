@@ -29,14 +29,14 @@ Lists work as expected.
 
 1. Blowzy night-frumps vex'd Jack Q. (A perfect [pangram](https://en.wikipedia.org/wiki/Pangram))
 2. Alve bazige froulju wachtsje op dyn komst.
-3. Flygande bäckasiner söka hwila på mjuka tuvor.
+3. Flygande b&auml;ckasiner s&ouml;ka hwila p&aring; mjuka tuvor.
 
 ## Quotes, images and code blocks
 
 Use Markdown's `>` to create a quote.
 
 >It'll be nipper heaps trent from punchy oldies. Trent from punchy no dramas when flat out like a tucker-bag. He hasn't got a piker flamin frog in a sock.
-><small>— [Bogan Ipsum](http://boganipsum.com/)</small>
+><small>&#8212; [Bogan Ipsum](http://boganipsum.com/)</small>
 
 Large enough images will be wider than the page.
 
